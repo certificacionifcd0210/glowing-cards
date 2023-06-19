@@ -65,3 +65,21 @@ body {
 .container .box:nth-child(2):after {
     background: linear-gradient(315deg, #03a9f4, #ff0058);
 }
+
+
+.container .box b {
+    position: absolute;
+    inset: 6px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+img { 
+    height: 300px;
+}
+
+.container .box img {
+    position: absolute;
+    z-index: 3;
+    scale: 0.8;
+}
