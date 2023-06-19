@@ -82,4 +82,12 @@ img {
     position: absolute;
     z-index: 3;
     scale: 0.8;
+    opacity: 0.25;
+    transition: 0.5s;
+}
+
+.container .box:hover img {
+    scale: 0.6;
+    opacity: 0.9;
+    transform: translateY(-70px);
 }
